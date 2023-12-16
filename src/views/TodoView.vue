@@ -26,7 +26,7 @@ const todos = [
 </script>
 
 <template>
-  <h2>Ismail's Impossible List</h2>
+  <h2>Ismail's Impossible List :D</h2>
   <div class="grid grid-cols-6 gap-4">
     <div>
       <SingleTodo v-for="(todo, index) in todos" :key="index" :description="todo.description"
